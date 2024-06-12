@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
+    background-color: #BCB88A;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -8,18 +9,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-color: #343a40;
     color: #fff;
-    padding: 20px 0;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 header h1 {
-    margin: 0;
+    margin: 8px;
     font-size: 2rem;
 }
 
 .navbar {
     padding: 0;
+    flex-grow: 1;
 }
 
 .navbar-nav .nav-link {
@@ -44,14 +48,17 @@ header h1 {
 
 .progress {
     margin-bottom: 20px;
+    border: 2px solid #000;
 }
 
 .progress-bar {
     transition: width 1s ease-in-out;
+    background-color: #9c8c71;
+    color: #000;
+   
 }
 
 #contact {
-    background-color: #343a40;
     color: #fff;
     padding: 50px 0;
 }
@@ -63,11 +70,10 @@ header h1 {
 }
 
 .social-link:hover {
-    color: #007bff;
+    color: #406997; 
 }
 
 footer {
-    background-color: #212529;
     color: #fff;
     text-align: center;
     padding: 20px 0;
